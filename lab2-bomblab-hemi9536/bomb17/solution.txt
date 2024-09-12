@@ -1,0 +1,7 @@
+The best thing about a boolean is even if you are wrong, you are only off by a bit.
+0 1 1 2 3 5
+3 240
+12 43 DrEvil
+5 115
+3 6 1 2 5 4
+22
